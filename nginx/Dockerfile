@@ -2,6 +2,6 @@
 FROM ubuntu:18.04
 MAINTAINER oncmmr@gmail.com
 
-RUN apt-get update
-RUN apt-get install -ynginx
+RUN apt update
+RUN apt install -y nginx
 CMD ["echo","Image created"]
